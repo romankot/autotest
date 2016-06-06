@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="First suite">
+    <test name="Login Test case">
+        <classes>
+            <class name="com.kremor.LoginTestCase"/>
+        </classes>
+    </test>
+
+    <test name="Logout Test case">
+        <classes>
+            <class name="com.kremor.LogoutTestCase"/>
+        </classes>
+    </test>
+
+    <test name="Incorrect Login password Test case">
+        <classes>
+            <class name="com.kremor.IncorrectLoginPwdTestCase"/>
+        </classes>
+    </test>
+</suite>
